@@ -4,7 +4,14 @@
     </Found>
     <NotFound>
         <LayoutView Layout="@typeof(MainLayout)">
-            <p>Sorry, there's nothing at this address.</p>
+            <div id="notfound">
+                <div class="container">
+                    <img src="assets/img/404.svg">
+                    <h6>Oops! The page you are looking for doesn't exist.</h6>
+                    <button class="btn me-4">HOME</button>
+                    <button class="btn">CONTACT US</button>
+                </div>
+            </div>
         </LayoutView>
     </NotFound>
 </Router>
