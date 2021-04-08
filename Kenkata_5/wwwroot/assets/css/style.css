@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.5;
+    margin: 0;
+}
+
+.black{
+    color:#000000;
+}
+.grey{
+    color:#EEEEEE ;
+}
+.red{
+    color: #FF2D2D;
+}
+.green{
+    color: #64CB83;
+}
+.orange{
+    color: #FFAA00;
+}
+.brown{
+    color: #542323;
+}
+.flex{
+    display: flex;
+}
+.circle-new {  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    height: 92px;
+    width: 92px;
+    background-color: #20D3c2;
+    color: white;
+}
+
+.circle-discount {  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    height: 92px;
+    width: 92px;
+    background-color: #64c883;
+    color: white;
+}
+
+.circle-hot {  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    height: 48px;
+    width: 48px;
+    background-color: #Fe4545;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* @media (min-width: 768px)  {.container {max-width: 720px;}}
+@media (min-width: 1200px) {.container {max-width: 1120px;}}
+@media (min-width: 1400px) {.container {max-width: 1320px;}} */
+@media (min-width: 1200px) {.container {max-width: 1140px;}}
+
+
+.list{
+    list-style: none;
+}
+
+.btn{
+    border-radius: 3rem;
+    padding: 0rem 1rem;
+    background-color: #FFFF;
+    color: #20D3C2;
+    border-radius: 3rem; 
+    width: 10.75rem;
+    height:3.375rem ;
+    padding: 0.5rem 0.8rem;
+    font-size:1.125rem ;
+    font-weight: medium;
+    border: none;
+}
+.btn:hover{
+    box-shadow: 6px 6px 10px #b6b5b5;
+    color: #20D3C2;
+}
+
+
+
+
+/* === Shopping More Fun === */
+#shopmorefun{
+    background-color: #EEEEEE;
+    text-align: center;
+}
+@media (min-width: 1200px) {#shopmorefun{text-align: left;}}
+
+@media (min-width: 1200px) {#shopmorefun .morefun{width: 24rem;}}
+
+#shopmorefun h1{
+    font-size:2.25rem ;
+    color: #0E153D;
+}
+@media (min-width: 1200px) {#shopmorefun h1{font-size: 3.75rem;}}
+
+#shopmorefun span{
+    font-size:2.25rem ;
+    font-weight: bold;
+    color: #20D3C2;
+}
+@media (min-width: 1200px) {#shopmorefun span{font-size: 3.75rem;}}
+
+#shopmorefun button{
+    margin-bottom: 1rem;
+    width: 10rem;
+    height:2.75rem ;
+}
+@media (min-width: 1200px){#shopmorefun button{   width: 10.75rem; height:3.375rem ;}}
+#shopmorefun img{
+    display: none;
+}
+@media (min-width: 1200px) {#shopmorefun img{display: block; width: 39.688rem; height: 37.5rem;}}
+
+
+/* === HOME New Customer === */
+#home-n-c {
+    background-color: #CCCC;
+}
+
+#n-c {
+    text-align: center;
+    color: #FFFF;
+    background-color: #20D3C2;
+}
+@media (min-width:1200px){#n-c{    width: 16rem; height: 26.25rem;}}
+.incontainer{
+    align-items: center;
+}
+@media (min-width:1200px){.incontainer{
+    display: flex;
+    justify-content: space-between;
+}}
+#n-c h1{
+    padding-top: 1rem;
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+@media (min-width:1200px){#n-c h1{margin-top: 6.25rem; font-size: 3.75;}}
+#n-c span{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+#n-c button{
+    margin-bottom: 1rem;
+    width: 10rem;
+    height:2.75rem ;
+    color: #FFFF;
+    background-color: #0E153D;
+    font-size: 1.125rem;
+}
+@media (min-width: 1200px){#n-c button{width: 9.625rem; height:3.375rem; margin-bottom: 0rem;}}
+#n-c button:hover{
+    box-shadow: 6px 6px 10px #424040;
+}
+#learnmore{
+    text-align: center;
+}
+@media (min-width:1200px){#learnmore{width: 27.813rem; text-align: left;}}
+#learnmore p{
+    margin-top: 1rem;
+    font-size:0.875rem ;
+    color: #FFF;
+}
+#learnmore button{
+    margin-bottom: 1rem;
+    width: 10rem;
+    height:2.75rem ;
+
+}
+@media (min-width: 1200px){#learnmore button{width: 10.75rem; height:3.375rem; margin-bottom: 0rem; font-size: 1.125rem;}}
+
+
+/* === Home Subscribe === */
+#home-subscribe{
+    background-color: #F6F6F6;
+    height: 19.563rem;
+}
+
+#h-subscribe{
+    width: 27.813rem;
+}
+#home-subscribe h2{
+    font-size:2.25rem ;
+    color: #0E153D;
+    padding-top: 4rem;
+}
+#home-subscribe span{
+    color: #20D3C2;
+}
+
+#home-subscribe p{
+    color: #0E153D;
+    width: 24.5rem;
+}
+
+#home-subscribe form{
+    display: flex;
+    flex-direction: row;
+    height:2.875rem ;
+    border: 1px solid #E3E3E3;
+    background-color: #FFFF;
+    border-radius: 3rem;
+    padding: 4px;
+}
+#home-subscribe input{
+    flex-grow: 2;
+    border-radius: 3rem;
+    border: none;
+}
+
+#home-subscribe button {
+    background-color: #20D3C2;
+    color: #FFFF;
+    font-size: 1rem;
+    height: 2.375rem;
+    width: 6.688rem;
+   
+}
+#home-subscribe button:hover{
+    background-color:#0E153D;
+    box-shadow: none;
+}
+
+
+#home-subscribe img{
+   display: none;
+
+}
+@media (min-width:1200px) {#home-subscribe img{ display: block;   width: 33.75rem; height:19.563rem ; background-color: #CCCCCC;}}
+
+
+/* === Not Found === */
+#notfound{
+    background-color: #F6F6F6;
+    height: 42.438rem;
+    text-align: center;
+    
+}
+
+#notfound img{
+    padding-top: 7.5rem;
+}
+#notfound h6{
+    padding-top: 4.063rem;
+    font-size: 1.5rem;
+    color:#0E153D;
+}
+#notfound button {
+    background-color: #20D3C2;
+    color: #FFFF;
+    font-size: 1.125;
+    padding: 1rem 2rem;
+    width: auto;
+    margin-top: 2.5rem;
+}
+#notfound button:hover{
+    background-color:#0E153D;
+    box-shadow: none;
+}
+
+
+
+
+/* === SHOP New Customer === */
+#new-customer {
+    background-color: #0E153D;
+
+}
+
+#new-customer .container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-align: left;
+    height:25rem ;
+}
+
+#new-customer  h1 {
+    color:#FFFF ;
+    font-size: 2.25rem;
+    font-weight: bold;
+    width: 17.5rem;
+    text-align: left;
+    margin-bottom: 2.375rem;
+}
+@media (min-width:1200px) {#new-customer h1 {font-size: 3.75rem;}}
+
+#new-customer button{
+    background-color: #FFFF;
+    color: #20D3C2;
+    border-radius: 3rem; 
+    width: 10.75rem;
+    height:3.375rem ;
+    padding: 0.5rem 0.8rem;
+    font-size:1.125rem ;
+    font-weight: medium;
+    border: none;
+}
+
+#new-customer .sneakers{
+    display: none;
+}
+@media (min-width: 1200px) {#new-customer .sneakers {display: block;}}
+
+#new-customer .absolute-new{
+    position: absolute;
+    top: 3.75rem;
+    right:41.25rem;
+
+}
+#new-customer .absolute-dis{
+    position: absolute;
+    top: 6.25rem;
+    right:21.875rem ;
+  
+
+}
+
+#new-customer .l-sneaker{
+   
+    right: -70px;
+    height: 11.188rem;
+    width:18.688rem ;
+    margin-top: -4.25rem;
+}
+
+#new-customer .r-sneaker{
+    height: 10.313rem;
+    width:16.938rem ;
+    margin-bottom: -4.563rem;
+}
+
+
+
+
+/* === Shop Sort === */
+#shop-sort{
+    background-color: #F6F6F6;
+}
+
+#shop-sort .container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height:8.75rem ;
+    margin-top:7.5rem ;
+}
+
+#shop-sort h4{
+    color: #20D3c2;
+    font-size: 1.5rem;
+}
+
+#shop-sort .link-grey{
+    color:#0E153D;
+    font-size: 1rem;
+}
+#shop-sort .link-grey:hover{
+    color:#AAAA;
+}
+
+#shop-sort .options{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0; 
+}
+
+#shop-sort ul li{
+    background-color: #0E153D;
+}
+
+#shop-sort a{
+    color: #FFFF;
+    text-decoration: none;
+}
+#shop-sort a:hover{
+    color: #20D3C2;
+}
+
+#shop-sort i{
+    height: 1.563rem;
+}
+#shop-sort i:hover{
+    color: #20D3C2;
+}
+
+/* ====  Filters  ==== */
+#filters h6{
+    color: #20D3C2;
+}
+
+#filters .filthov:hover{
+    color: #20D3C2;
+}
+
+#filters button{
+    background-color: #20D3C2;
+    color: #FFFF;
+    border: none;
+}
+
+
+
+
