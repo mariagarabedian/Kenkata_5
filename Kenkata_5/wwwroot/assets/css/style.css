@@ -140,6 +140,60 @@ html, body {
 @media (min-width: 1200px) {#shopmorefun img{display: block; width: 39.688rem; height: 37.5rem;}}
 
 
+/* INFO BOXES */
+#infoboxes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
+
+
+#infoboxes p {
+    font-family: "Roboto", sans-serif;
+}
+
+#infoboxes .infobox-width {
+    width: 1680px;
+}
+
+#infoboxes .infobox {
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    height: 140px;
+    background-color: #EDFCFA;
+}
+
+#infoboxes .infobox:hover {
+    cursor: pointer;
+    background-color: #20D3C2;
+    color: white;
+}
+
+#infoboxes .infobox:hover span {
+    color: white;
+}
+
+#infoboxes svg {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    fill: #20D3C2;
+}
+
+
+#infoboxes .infobox:hover svg {
+    fill: white;
+}
+
+#infoboxes span {
+    color: #20D3C2;
+    font-weight: bold;
+}
+
+
 /* === HOME New Customer === */
 #home-n-c {
     background-color: #CCCC;
