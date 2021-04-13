@@ -266,9 +266,9 @@ html, body {
     margin: 0;
 }
 
-    .text-center span {
-        color: #20D3C2;
-    }
+.text-center span {
+    color: #20D3C2;
+}
 
 .line-center {
     color: #E3E3E3;
@@ -294,6 +294,19 @@ html, body {
     grid-row-gap: 3px;
     justify-content: center;
     margin-top: 40px;
+}
+
+.holder {
+    padding-top: 70px;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: 21.875rem 21.875rem 21.875rem;
+    grid-column-gap: 30px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0;
 }
 
 /* === Product card === */
@@ -680,7 +693,7 @@ html, body {
     height: 435px;
 }
 
-.container {
+.flash-container {
     width: 100%;
     display: flex;
 }
