@@ -30,18 +30,31 @@
     </div>
     <div class="grid-container ">
 
-        <div class="grid-item item-1"><span class="s-cate">Menn</span></div>
-        <div class="grid-item item-2"><span class="s-cate">Wamen</span></div>
-        <div class="grid-item item-3"><span class="s-cate">Kids</span></div>
-        <div class="grid-item item-4"><span class="s-cate">Shoes</span></div>
-        <div class="grid-item item-5"><span class="s-cate">Hats</span></div>
-        <div class="grid-item item-6"><span class="s-cate">Sunglasses</span></div>
-        <div class="grid-item item-7"><span class="s-cate">Watches</span></div>
+        <NavLink href="menProducts" class="grid-item item-1"><div><span class="s-cate">Men</span></div></NavLink>
+        <NavLink href="womenProducts" class="grid-item item-2"><div><span class="s-cate">Women</span></div></NavLink>
+        <NavLink href="kidsProducts" class="grid-item item-3"><div><span class="s-cate">Kids</span></div></NavLink>
+        <NavLink href="shoesProducts" class="grid-item item-4"><div><span class="s-cate">Shoes</span></div></NavLink>
+        <NavLink href="hatsProducts" class="grid-item item-5"><div><span class="s-cate">Hats</span></div></NavLink>
+        <NavLink href="sunglassesProducts" class="grid-item item-6"><div><span class="s-cate">Sunglasses</span></div></NavLink>
+        <NavLink href="watchesProducts" class="grid-item item-7"><div><span class="s-cate">Watches</span></div></NavLink>
+
 
     </div>
 </section>
 
 @* =============== New Arrivals ===================== *@
+
+<div class="container  ">
+
+    <div class="holder">
+        <div class="text-center"> NEW  <span>ARRIVALS</span></div>
+        <img class="line-center" src="./assets/img/zigzag.svg" alt="...">
+        <p class="p-center">Check out our latest products from top fashion designers</p>
+    </div>
+
+</div>
+
+<ProductCard />
 
 
 @* =============== New Customer ======================= *@
@@ -69,6 +82,49 @@
 @* =============== Flash Sale ========================= *@
 
 
+<section id="flash-sale">
+
+    <div class="flash-container container">
+
+        <div class="box">
+            <h1>FLASH<br>SALE</h1>
+            <p>UP TO 50% OFF</p>
+        </div>
+
+        <div class="circle">
+            <h2>7</h2><rb>
+                <span>Days</span>
+            </rb>
+        </div>
+
+        <div class="circle">
+            <h2>23</h2><rb>
+                <span>Hours</span>
+            </rb>
+        </div>
+
+        <div class="circle">
+            <h2>46</h2><rb>
+                <span>Minutes</span>
+            </rb>
+        </div>
+
+        <div class="circle">
+            <h2>12</h2><rb>
+                <span>Seconds</span>
+            </rb>
+        </div>
+    </div>
+
+    <div class="container">
+        <NavLink href="shop"><button class="btn">SHOP NOW</button></NavLink>
+    </div>
+
+</section>
+
+
+
+
 @* =============== Top Sellers ======================== *@
 
 
@@ -79,7 +135,8 @@
 
 
 @* ================ Subscribe ======================= *@
-<Subscribe/>
+
+<Subscribe />
 
 
 
