@@ -193,6 +193,11 @@ html, body {
     font-weight: bold;
 }
 
+.info-btn {
+    border: none;
+    background: none;
+}
+
 
 /* Shop by category */
 
@@ -723,7 +728,7 @@ html, body {
     font-weight: medium;
     border: none;
     font-family: "Roboto", sans-serif;
-    margin-left: 900px;
+    margin-left: 800px;
     margin-top: 20px;
 }
 
@@ -746,11 +751,10 @@ html, body {
 }
 
 .container .box {
-    width: 285px;
+    width: 275px;
     height: 265px;
     background-color: #20d3c2;
-    margin-left: 200px;
-    margin-right: 250px;
+    margin-right: 400px;
 }
 
 
