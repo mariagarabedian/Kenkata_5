@@ -127,18 +127,56 @@
 
 @* =============== Top Sellers ======================== *@
 
+<div class="container  ">
 
-@* ================ Recensioner ====================== *@
+    <div class="holder">
+        <div class="text-center"> TOP  <span>SELLERS</span></div>
+        <img class="line-center" src="./assets/img/zigzag.svg" alt="...">
+        <p class="p-center">Check out our weekly top sellers in all category</p>
+    </div>
 
-
-@* ================ Latest Blog ===================== *@
-
-
-@* ================ Subscribe ======================= *@
-
-<Subscribe />
-
+</div>
 
 
+<div class="container mb-5  ">
+    <div class="grid-topSellers">
+        <div class="topSellerCards">
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+            <NavLink href="men"><ProductCard /></NavLink>
+
+        </div>
+
+        <div class="topSellerCards-sub">
+
+            <div class="sub-grid ">
+                <NavLink href="Women"><ProductCard /></NavLink>
+
+            </div>
+
+            <div class="sub-grid">
+                <NavLink href="kids"><ProductCard /></NavLink>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>
+
+    @* ================ Recensioner ====================== *@
+
+
+    @* ================ Latest Blog ===================== *@
+
+
+    @* ================ Subscribe ======================= *@
+
+    <Subscribe />
+
+
+
+
+    <SurveyPrompt Title="How is Blazor working for you?" />

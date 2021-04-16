@@ -800,6 +800,107 @@ html, body {
 
 
 
+/* Top Sellers */
+
+
+
+
+.grid-topSellers {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    margin-top: 40px;
+    margin-left: 95px;
+    column-gap: 5px;
+}
+
+.topSellerCards {
+    background-color: #EEEEEE;
+}
+
+.topSellerCards .newProduct-card {
+    height: 649px;
+}
+.topSellerCards .card-footer {
+    bottom: 600px;
+}
+
+.topSellerCards-sub {
+    display: grid;
+    grid-template-rows: 345px 345px;
+    row-gap: 5px;
+}
+
+    .topSellerCards-sub .showhov {
+        height: 345px;
+    }
+
+
+.sub-grid {
+    position: relative;
+    background-color: #EEEEEE;
+}
+
+
+
+
+
+
+.topSellerCards .hov {
+    position: relative;
+}
+
+
+.sec1logo {
+    width: 10.938rem;
+    position: absolute;
+    display: flex;
+    height: 4.688rem;
+    top: 10px;
+    margin: 20px;
+}
+
+.topSellerCards .showhov {
+    height: 700px;
+}
+
+.topSellerCards .card-body-hover {
+    top: 580px;
+}
+
+.topSellerCards .star {
+    top: 655px;
+}
+
+.sec2 {
+    height: 18.375rem;
+    width: 34.375rem;
+    position: absolute;
+    bottom: 45px;
+}
+
+.sec2logo {
+    width: 10.938rem;
+    margin: 30px;
+    height: 4.688rem;
+}
+
+.topSellerCards-sub .card-body-hover {
+    top: 230px;
+}
+
+.topSellerCards-sub .star {
+    top: 300px;
+}
+
+.sub-grid .card-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
 /* === Shop Sort === */
 #shop-sort{
     background-color: #F6F6F6;
